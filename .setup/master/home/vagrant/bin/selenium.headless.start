@@ -1,0 +1,2 @@
+#!/bin/sh
+DISPLAY=:1 xvfb-run /usr/bin/java -jar /vagrant/selenium/selenium-server-standalone-2.48.2.jar > /tmp/selenium.log 2>&1 &
